@@ -17,6 +17,11 @@ namespace _25abril_2024
             myList.addNode(node1);
 
             myList.printData();
+
+            myList.removeNode();
+            myList.printData();
+
+
             Console.ReadKey();
         }
     }

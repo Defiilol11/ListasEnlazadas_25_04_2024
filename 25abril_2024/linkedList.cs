@@ -51,5 +51,22 @@ namespace _25abril_2024
                 aux = aux.getNext();
             }  
         }
+        
+        public void removeNode()
+        {
+            if (!isEmpty())
+            {
+                Nodes aux = this.head;
+                while (aux.getNext() != null)
+                {
+                    if(aux.getNext().getNext() == null)
+                    {
+                        break;
+                    }
+                    aux= aux.getNext();
+                }
+                aux.setNext(null);
+            }
+        }
     }
 }
