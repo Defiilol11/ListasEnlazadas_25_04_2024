@@ -29,7 +29,7 @@ namespace _25abril_2024
             //myList.removeNode();
             //myList.printData();
 
-
+            Console.WriteLine("Exito");
             Console.ReadKey();
         }
     }
